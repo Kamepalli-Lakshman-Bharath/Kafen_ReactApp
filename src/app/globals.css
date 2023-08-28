@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #20b883;
+  --font-color-small: rgba(0, 0, 0, 0.8);
+  --font-size-small: 14px;
+  --font-size-medium:20px;
+  --font-size-big:36px;
+  --letter-spacing: 0.6px;
+  --font-weight: 500;
+  --text-clr:  rgb(135, 135, 135);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: #f6f7fb;
+}

@@ -1,0 +1,14 @@
+.row {
+  background-color: #fff;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight);
+}
+.row > td {
+  padding: 20px;
+  text-align: start;
+  border-bottom: 4px solid #f6f7fb;
+  padding: 20px;
+}
+.textLightClr{
+  color: var(--text-clr);
+}

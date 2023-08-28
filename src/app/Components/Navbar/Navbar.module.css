@@ -1,0 +1,48 @@
+/* nav-bar */
+.navbar {
+  height: 65px;
+  box-shadow: 0 2px 4px #ccc;
+  box-sizing: border-box;
+  position: fixed;
+  inset: 0px;
+  align-items: center;
+  display: flex;
+  z-index: 1;
+  background-color: white;
+}
+
+.logo {
+  width: 110px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.imgLogo {
+  width: 24px;
+  height: 28px;
+}
+.logoText {
+  float: right;
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: var(--font-weight);
+  margin: 0;
+}
+.menu {
+  display: flex;
+  color: var(--font-color-small);
+  width: 250px;
+  justify-content: space-between;
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-small);
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+.logOut {
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+  color: var(--font-color-small);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-small);
+  letter-spacing: 0.6px;
+}
